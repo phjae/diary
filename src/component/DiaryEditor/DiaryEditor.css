@@ -1,0 +1,40 @@
+.diary-editor {
+    margin: 20px auto;
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.diary-editor input,
+.diary-editor textarea {
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.diary-editor textarea {
+    height: 150px;
+}
+
+.diary-editor .score-wrap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.diary-editor .score-wrap .score-tit {
+    align-self: center;
+}
+
+.diary-editor select {
+    margin-left: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+.diary-editor button {
+    margin-top: 20px;
+    width: 500px;
+    padding: 5px;
+}
